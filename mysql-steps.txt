@@ -1,0 +1,17 @@
+1. mysqld.exe --initialize --console
+[take the temporary password]
+
+2. mysqld.exe
+
+
+mysql client
+============
+mysql -uroot -p
+password: temporary password
+
+>ALTER USER 'root'@'localhost' IDENTIFIED BY 'root'
+
+mysql client connect
+====================
+mysql -uroot -proot
+
