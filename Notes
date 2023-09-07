@@ -612,6 +612,30 @@ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic testTopic -
 
 
 
+=========================
+Web application url
+========================
+
+url:
+http://localhost:8080/manager/info
+http://localhost:8080/lab-mvc/test
+http://localhost:8080
+
+Context-root : it is used to uniquely identify the application
+url-pattern: used to uniquely identify the resouces inside the application
+* default context-root is  "/"
+* default url-pattern is "/"
+* default http port is 80
+
+http://localhost:8080/status
+http://localhost:8080/payment
+http://localhost:8080/paymentstatus
+
+www.google.com
+|_ Tomcat 
+      |_ port : 80
+      |_ context-root : /
+      |_ url-pattern : /
 
 
 
