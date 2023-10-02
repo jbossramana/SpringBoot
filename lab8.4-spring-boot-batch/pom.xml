@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>lab-spring-boot-batch</artifactId>
+	<artifactId>lab8.4-spring-boot-batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab-spring-boot-batch</name>
 	<description>Demo project for Spring Boot</description>
