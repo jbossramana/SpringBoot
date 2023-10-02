@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>lab9-Reactive-Web-Flux-Reative</artifactId>
+	<artifactId>lab8.6-Reactive-Web-Flux-Reactive</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>lab9-Reactive-Web-Flux-Reative</name>
+	<name>lab8.6-Reactive-Web-Flux-Reactive</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
