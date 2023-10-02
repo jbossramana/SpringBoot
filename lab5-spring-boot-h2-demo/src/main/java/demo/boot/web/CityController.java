@@ -57,9 +57,5 @@ public class CityController {
     	cityService.updateCity(city);
     }
     
-    @ExceptionHandler(EmptyResultDataAccessException.class)
-    public ResponseEntity<String> noCityFound(EmptyResultDataAccessException e) {
 
-        return ResponseEntity.status(HttpStatus.NOT_FOUND).body("No City found");
-    }
 }

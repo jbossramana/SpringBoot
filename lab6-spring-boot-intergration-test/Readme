@@ -1,6 +1,5 @@
 integration testing
-===================
-
+============
 
 An integration test is supposed to test whether different modules are bounded correctly and if 
 they work as expected.
@@ -55,4 +54,11 @@ or the JavaConfig annotated with @Configuration. The @ContextConfiguration annot
 ===============
 
 It executes SQL scripts and SQL statements using datasource for testing. 
+
+
+@Mock creates a mock, and @InjectMocks creates an instance of the class and injects the mocks that are created with the 
+@Mock annotations into this instance.
+
+
+
 

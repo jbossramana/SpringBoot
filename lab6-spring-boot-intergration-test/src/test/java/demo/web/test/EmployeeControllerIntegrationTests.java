@@ -27,8 +27,7 @@ public class EmployeeControllerIntegrationTests
 	@LocalServerPort
 	private int port;
 
-	@Autowired
-	RestTemplate restTemplate2;
+
 	
 	@Autowired
 	private TestRestTemplate restTemplate;

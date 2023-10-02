@@ -30,8 +30,7 @@ public class CityDao  implements ICityDao{
 
         String sql = "SELECT * FROM cities WHERE id = ?";
 
-        return jtm.queryForObject(sql, new Object[]{id},
-                new BeanPropertyRowMapper<>(City.class));
+        return jtm.queryForObject(sql, new BeanPropertyRowMapper<>(City.class),new Object[]{id});
     }
 
 	@Override
