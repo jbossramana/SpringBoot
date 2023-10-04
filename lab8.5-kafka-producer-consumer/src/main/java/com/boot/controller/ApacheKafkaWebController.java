@@ -19,12 +19,13 @@ public class ApacheKafkaWebController {
 	@Autowired
 	KafkaSender kafkaSender;
 
-	@GetMapping(value = "/producer")
-	public String producer(@RequestParam String message) {
+	@PostMapping(value = "/producer")
+	public String producer(@RequestBody String message) {
 		kafkaSender.send(message);
 
 		return "Message sent to the Kafka Topic test_topic Successfully";
 	}
+
 
 }
 
