@@ -9,10 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.jdbc.Sql;
-import org.springframework.web.client.RestTemplate;
+
 
 import demo.web.SpringBootDemoApplication;
 import demo.web.model.Employee;
@@ -24,7 +23,7 @@ import demo.web.model.Employees;
 		webEnvironment = WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTests 
 {
-	@LocalServerPort
+	@org.springframework.boot.test.web.server.LocalServerPort
 	private int port;
 
 
